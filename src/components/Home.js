@@ -1,12 +1,13 @@
-import Hero from "./Hero"
-
+import Hero from "./Hero";
+import Featured from "./Featured";
 
 const Home = () => {
   return (
     <div>
-      <Hero/>
+      <Hero />
+      <Featured />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
